@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF41B9A81F06346F0005CD6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF41B9A71F06346F0005CD6C /* main.m */; };
+		EF41B9AB1F06346F0005CD6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF41B9AA1F06346F0005CD6C /* AppDelegate.m */; };
+		EF41B9AE1F06346F0005CD6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF41B9AD1F06346F0005CD6C /* ViewController.m */; };
+		EF41B9B11F06346F0005CD6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF41B9AF1F06346F0005CD6C /* Main.storyboard */; };
+		EF41B9B31F06346F0005CD6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF41B9B21F06346F0005CD6C /* Assets.xcassets */; };
+		EF41B9C01F0637B70005CD6C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF41B9BF1F0637B70005CD6C /* OpenGLES.framework */; };
+		EF41B9C21F0637CA0005CD6C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF41B9C11F0637CA0005CD6C /* QuartzCore.framework */; };
+		EF41B9C41F0637D60005CD6C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF41B9C31F0637D60005CD6C /* CoreGraphics.framework */; };
+		EF41B9CB1F0640870005CD6C /* Debug.c in Sources */ = {isa = PBXBuildFile; fileRef = EF41B9C61F0640870005CD6C /* Debug.c */; };
+		EF41B9CC1F0640870005CD6C /* Imaging.c in Sources */ = {isa = PBXBuildFile; fileRef = EF41B9C81F0640870005CD6C /* Imaging.c */; };
+		EF41B9CD1F0640870005CD6C /* Texture.m in Sources */ = {isa = PBXBuildFile; fileRef = EF41B9CA1F0640870005CD6C /* Texture.m */; };
+		EF41B9D01F0640CB0005CD6C /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF41B9CF1F0640CB0005CD6C /* EAGLView.m */; };
+		EF41B9D41F0646120005CD6C /* Image.png in Resources */ = {isa = PBXBuildFile; fileRef = EF41B9D31F0646120005CD6C /* Image.png */; };
+		EF41B9D61F064B4C0005CD6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF41B9D51F064B4C0005CD6C /* UIKit.framework */; };
+		EF41B9D81F064B540005CD6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF41B9D71F064B540005CD6C /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF41B9A31F06346F0005CD6C /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF41B9A71F06346F0005CD6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF41B9A91F06346F0005CD6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF41B9AA1F06346F0005CD6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF41B9AC1F06346F0005CD6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF41B9AD1F06346F0005CD6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF41B9B01F06346F0005CD6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF41B9B21F06346F0005CD6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF41B9B71F06346F0005CD6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF41B9BF1F0637B70005CD6C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		EF41B9C11F0637CA0005CD6C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EF41B9C31F0637D60005CD6C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF41B9C51F0640870005CD6C /* Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Debug.h; sourceTree = "<group>"; };
+		EF41B9C61F0640870005CD6C /* Debug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Debug.c; sourceTree = "<group>"; };
+		EF41B9C71F0640870005CD6C /* Imaging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Imaging.h; sourceTree = "<group>"; };
+		EF41B9C81F0640870005CD6C /* Imaging.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Imaging.c; sourceTree = "<group>"; };
+		EF41B9C91F0640870005CD6C /* Texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture.h; sourceTree = "<group>"; };
+		EF41B9CA1F0640870005CD6C /* Texture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Texture.m; sourceTree = "<group>"; };
+		EF41B9CE1F0640CB0005CD6C /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		EF41B9CF1F0640CB0005CD6C /* EAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		EF41B9D31F0646120005CD6C /* Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Image.png; sourceTree = "<group>"; };
+		EF41B9D51F064B4C0005CD6C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF41B9D71F064B540005CD6C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF41B9A01F06346F0005CD6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF41B9D81F064B540005CD6C /* Foundation.framework in Frameworks */,
+				EF41B9D61F064B4C0005CD6C /* UIKit.framework in Frameworks */,
+				EF41B9C41F0637D60005CD6C /* CoreGraphics.framework in Frameworks */,
+				EF41B9C21F0637CA0005CD6C /* QuartzCore.framework in Frameworks */,
+				EF41B9C01F0637B70005CD6C /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF41B99A1F06346F0005CD6C = {
+			isa = PBXGroup;
+			children = (
+				EF41B9D31F0646120005CD6C /* Image.png */,
+				EF41B9BD1F0637920005CD6C /* Other */,
+				EF41B9A51F06346F0005CD6C /* Test */,
+				EF41B9A41F06346F0005CD6C /* Products */,
+				EF41B9BE1F0637B60005CD6C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF41B9A41F06346F0005CD6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF41B9A31F06346F0005CD6C /* Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF41B9A51F06346F0005CD6C /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				EF41B9A91F06346F0005CD6C /* AppDelegate.h */,
+				EF41B9AA1F06346F0005CD6C /* AppDelegate.m */,
+				EF41B9AC1F06346F0005CD6C /* ViewController.h */,
+				EF41B9AD1F06346F0005CD6C /* ViewController.m */,
+				EF41B9AF1F06346F0005CD6C /* Main.storyboard */,
+				EF41B9B21F06346F0005CD6C /* Assets.xcassets */,
+				EF41B9B71F06346F0005CD6C /* Info.plist */,
+				EF41B9A61F06346F0005CD6C /* Supporting Files */,
+				EF41B9CE1F0640CB0005CD6C /* EAGLView.h */,
+				EF41B9CF1F0640CB0005CD6C /* EAGLView.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		EF41B9A61F06346F0005CD6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF41B9A71F06346F0005CD6C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF41B9BD1F0637920005CD6C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				EF41B9C51F0640870005CD6C /* Debug.h */,
+				EF41B9C61F0640870005CD6C /* Debug.c */,
+				EF41B9C71F0640870005CD6C /* Imaging.h */,
+				EF41B9C81F0640870005CD6C /* Imaging.c */,
+				EF41B9C91F0640870005CD6C /* Texture.h */,
+				EF41B9CA1F0640870005CD6C /* Texture.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		EF41B9BE1F0637B60005CD6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF41B9D71F064B540005CD6C /* Foundation.framework */,
+				EF41B9D51F064B4C0005CD6C /* UIKit.framework */,
+				EF41B9C31F0637D60005CD6C /* CoreGraphics.framework */,
+				EF41B9C11F0637CA0005CD6C /* QuartzCore.framework */,
+				EF41B9BF1F0637B70005CD6C /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF41B9A21F06346F0005CD6C /* Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF41B9BA1F06346F0005CD6C /* Build configuration list for PBXNativeTarget "Test" */;
+			buildPhases = (
+				EF41B99F1F06346F0005CD6C /* Sources */,
+				EF41B9A01F06346F0005CD6C /* Frameworks */,
+				EF41B9A11F06346F0005CD6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Test;
+			productName = Test;
+			productReference = EF41B9A31F06346F0005CD6C /* Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF41B99B1F06346F0005CD6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = spartawhy;
+				TargetAttributes = {
+					EF41B9A21F06346F0005CD6C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6MFEP9UA6E;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EF41B99E1F06346F0005CD6C /* Build configuration list for PBXProject "Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF41B99A1F06346F0005CD6C;
+			productRefGroup = EF41B9A41F06346F0005CD6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF41B9A21F06346F0005CD6C /* Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF41B9A11F06346F0005CD6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF41B9D41F0646120005CD6C /* Image.png in Resources */,
+				EF41B9B31F06346F0005CD6C /* Assets.xcassets in Resources */,
+				EF41B9B11F06346F0005CD6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF41B99F1F06346F0005CD6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF41B9CC1F0640870005CD6C /* Imaging.c in Sources */,
+				EF41B9AE1F06346F0005CD6C /* ViewController.m in Sources */,
+				EF41B9AB1F06346F0005CD6C /* AppDelegate.m in Sources */,
+				EF41B9D01F0640CB0005CD6C /* EAGLView.m in Sources */,
+				EF41B9CD1F0640870005CD6C /* Texture.m in Sources */,
+				EF41B9A81F06346F0005CD6C /* main.m in Sources */,
+				EF41B9CB1F0640870005CD6C /* Debug.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF41B9AF1F06346F0005CD6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF41B9B01F06346F0005CD6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF41B9B81F06346F0005CD6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF41B9B91F06346F0005CD6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF41B9BB1F06346F0005CD6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6MFEP9UA6E;
+				INFOPLIST_FILE = Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myos.spartawhy.my3dtouch-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF41B9BC1F06346F0005CD6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6MFEP9UA6E;
+				INFOPLIST_FILE = Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myos.spartawhy.my3dtouch-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF41B99E1F06346F0005CD6C /* Build configuration list for PBXProject "Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF41B9B81F06346F0005CD6C /* Debug */,
+				EF41B9B91F06346F0005CD6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF41B9BA1F06346F0005CD6C /* Build configuration list for PBXNativeTarget "Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF41B9BB1F06346F0005CD6C /* Debug */,
+				EF41B9BC1F06346F0005CD6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF41B99B1F06346F0005CD6C /* Project object */;
+}
